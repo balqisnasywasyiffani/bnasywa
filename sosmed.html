@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eche Books Media</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #dccaf4;
+        /* text-align: center; */
+      }
+
+      header {
+        background-color: #5F84A2;
+        color: #fff;
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+        border-top: 6px solid #194569;
+        border-bottom: 6px solid #194569;
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+        padding: 2em;
+        min-height: 100vh;
+        size: 1%;
+      }
+
+      .social-icon {
+        cursor: pointer;
+        margin: 0 1em;
+      }
+
+      .social-icon img {
+        width: 100px; /* Sesuaikan ukuran ikon */
+        height: 100px; /* Sesuaikan ukuran ikon */
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="sosmed.html">Sosmed</a></li>
+            <li><a href="review.html">Review</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="judulKanan">
+          <h1 class="judul">CettashaBooks</h1>
+        </div>
+      </div>
+      <header>
+        <h1>Our Social Media</h1>
+        <p>
+          You can follow our social media account and also chat us in WhatsApp
+        </p>
+      </header>
+
+      <div class="social-icons">
+        <div class="social-icon" onclick="openInstagram()">
+          <img src="instagram-icon.png" alt="Instagram" />
+          <p>Instagram</p>
+        </div>
+
+        <div class="social-icon" onclick="openWhatsApp()">
+          <img src="whatsapp-icon.png" alt="WhatsApp" />
+          <p>WhatsApp</p>
+        </div>
+
+        <div class="social-icon" onclick="openTikTok()">
+          <img src="tiktok-icon.jpg" alt="TikTok" />
+          <p>TikTok</p>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="copyright">Copyright 2024. Cettashabooks</p>
+      </div>
+    </div>
+
+    <script>
+      function openInstagram() {
+        window.open("https://www.instagram.com/@naswa.o_c/", "_blank");
+      }
+
+      function openWhatsApp() {
+        window.open("https://wa.me/089696000744", "_blank");
+      }
+
+      function openTikTok() {
+        window.open("https://www.tiktok.com/@PPLG2_SMEA", "_blank");
+      }
+    </script>
+  </body>
+</html>

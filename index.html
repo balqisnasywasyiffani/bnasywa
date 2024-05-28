@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eche Books Store</title>
+    <script src="halo.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="sosmed.html">Sosmed</a></li>
+            <li><a href="review.html">Review</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="judulKanan">
+          <h1 class="judul">CettashaBooks</h1>
+        </div>
+      </div>
+      <div class="hero"></div>
+      <div class="content cf">
+        <div class="main">
+          <h2>New Product</h2>
+          <section
+            class="product shadow"
+            data-search="Malioboro">
+            <a href="produkl.html">
+              <img src="malioboro2.jfif" alt="Produk 1" />
+            </a>
+            <h3>Malioboro at Midnight</h3>
+            <p>Skysphire</p>
+            <p class="price">Rp. 95.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Malioboro at Midnight', 'Rp. 95.000', 'SOFT COVER', 'malioboro2.jfif')">
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Malioboro at Mignight', 95000)">
+              Keranjang</button><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Nadia Ristivani" data-search="Hilmy Milan">
+            <a href="produk2.html">
+              <img src="himymilan.jfif" alt="Produk 2" />
+            </a>
+            <h3>Hilmy Milan</h3>
+            <p>Nadia Ristivani</p>
+            <p class="price">Rp. 98.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Hilmy Milan', 'Rp. 94.000', 'SOFT COVER', 'himymilan.jfif')">
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Hilmy Milan', 94000)">
+              Keranjang</button><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Valerie Patkar" data-search="Nonversation">
+            <a href="produk8.html">
+              <img src="nonversation.jfif" alt="Produk 8" />
+            </a>
+            <h3>Nonversation</h3>
+            <p>Valerie Patkar</p>
+            <p class="price">Rp. 88.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Nonversation', 'Rp. 88.000', 'SOFT COVER', 'nonversation.jfif')">
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Nonversation', 88000)">
+              Keranjang</button><br />
+          </section>
+          
+          <section
+          class="product shadow"
+            data-search="Champion Class">
+            <a href="produk11.html">
+              <img src="cc.jfif" alt="Produk 11" />
+            </a>
+            <h3>Champion Class</h3>
+            <p>Febrina Kirani Sy</p>
+            <p class="price">Rp. 89.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Champion Class', 'Rp. 89.000', 'SOFT COVER', 'cc.jfif')">
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Champion Class', 89000)">
+              Keranjang</button><br />
+          </section>
+
+            <section
+            class="product shadow"
+            data-search="Yang Katanya Cemara">
+            <a href="produk9.html">
+              <img src="cemara.jpg" alt="Produk 6" />
+            </a>
+            <h3>Yang Katanya Cemara</h3>
+            <p>Vania Winola</p>
+            <p class="price">Rp. 89.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Yang Katanya Cemara', 'Rp. 89.000', 'SOFT COVER', 'cemara.jpg')">
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Yang Katanya Cemara', 89000)">
+              Keranjang</button><br />
+            </section>
+
+          <section class="product shadow" data-kategori="Nadia Ristivani" data-search="Hello Cello">
+            <a href="produk12.html">
+              <img src="cello2.jpeg" alt="Produk 12" />
+            </a>
+            <h3>Hello (Again), Cello</h3>
+            <p>Nadia Ristivani</p>
+            <p class="price">Rp. 99.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Hello (Again), Cello', 'Rp. 99.000', 'HARD COVER', 'cello2.jpeg')">
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Hello (Again), Cello', 99000)">
+              Keranjang</button><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Valerie Patkar" data-search="Game Over">
+            <a href="produk2.html">
+              <img src="gameover.jpg" alt="Produk 2" />
+            </a>
+            <h3>Game Over</h3>
+            <p>Valerie Patkar</p>
+            <p class="price">Rp. 85.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Game Over', 'Rp. 85.000', 'SOFT COVER', 'gameover.jpg')">
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Game Over', 85000)">
+              Keranjang</button><br />
+          </section>
+
+          <section class="product shadow" data-kategori="J.S Khairen" data-search="Dompet Ayah Sepatu Ibu">
+            <a href="produk7.html">
+              <img src="dasi.jpg" alt="Produk 7" />
+            </a>
+            <h3>Dompet Ayah Sepatu Ibu</h3>
+            <p>J.S Khairen</p>
+            <p class="price">Rp. 70.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Dompet Ayah Sepatu Ibu', 'Rp. 70.000', 'SOFT COVER', 'dasi.jpg')">
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Dompet Ayah Sepatu Ibu', 70000)">
+              Keranjang</button><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Nadia Ristivani" data-search="Hilmy Milan">
+            <a href="produk3.html">
+              <img src="hilmynew.jpg" alt="Produk 3" />
+            </a>
+            <h3>Hilmy Milan (New Edition)</h3>
+            <p>Nadia Ristivani</p>
+            <p class="price">Rp. 89.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Hilmy Milan (New Edition)', 'Rp. 89.000', 'SOFT COVER', 'hilmynew.jpg') ">
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Hilmy Milan (New Edition)', 89000)">
+              Keranjang</button><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Valerie Patkar" data-search="Serangkai">
+            <a href="produk4.html">
+              <img src="serangkai.jpg" alt="Produk 4" />
+            </a>
+            <h3>Serangkai</h3>
+            <p>Valerie Patkar</p>
+            <p class="price">Rp. 90.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Serangkai', 'Rp. 90.000', 'SOFT COVER', 'Serangkai.jpg')">
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Serangkai', 90000)">
+              Keranjang</button><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Nadia Ristivani" data-search="Hello Cello">
+            <a href="produk5.html">
+              <img src="cello1.jpg" alt="Produk 5" />
+            </a>
+            <h3>Hello Cello</h3>
+            <p>Nadia Ristivani</p>
+            <p class="price">Rp. 90.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Hello Cello', 'Rp. 90.000', 'SOFT COVER + 2 COVER', 'cello1.jpg')">
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Hello Cello', 90000)">
+              Keranjang</button><br />
+          </section>
+
+          <section class="product shadow" data-kategori="J.S Khairen" data-search="Kado Terbaik">
+            <a href="produk6.html">
+              <img src="kadoterbaik.png" alt="Produk 6" />
+            </a>
+            <h3>Kado Terbaik</h3>
+            <p>J.S Khairen</p>
+            <p class="price">Rp. 75.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('Kado Terbaik', 'Rp. 75.000', 'SOFT COVER', 'kadoterbaik.png')">
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('Kado Terbaik', 75000)">
+              Keranjang</button><br />
+          </section>
+        </div>
+        <div class="sidebar">
+          <h3>Kategori</h3>
+          <div class="kategori-pilihan">
+            <input
+              type="text"
+              id="cariBarang"
+              placeholder="Cari Barang"
+              onkeyup="cariBarang ()"
+            />
+            <button onclick="filterKategori('All')">All</button><br />
+            <button onclick="filterKategori('Valerie Patkar')">Valerie Patkar</button><br />
+            <button onclick="filterKategori('J.S Khairen')">J.S Khairen</button><br />
+            <button onclick="filterKategori('Nadia Ristivani')">Nadia Ristivani</button><br />
+          </div>
+          <br />
+          <br />
+          <div class="keranjang">
+            <h3>Keranjang Belanja</h3>
+            <ul id="daftar-keranjang"></ul>
+            <p>Total Belanja : <span id="total-belanja">Rp. 0.00</span></p>
+            <button id="checkout" onclick="checkout()">Checkout</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="copyright">Copyright 2024. Cettashabooks</p>
+      </div>
+    </div>
+  </body>
+</html>
